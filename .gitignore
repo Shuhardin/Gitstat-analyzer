@@ -1,0 +1,17 @@
+# Сборка
+build/
+*.o
+*.out
+*.exe
+
+# Временные файлы FIFO (на случай запуска вне /tmp)
+*.fifo
+
+# Отчёты
+fifo_report.txt
+
+# Редакторы и IDE
+.vscode/
+.idea/
+*.swp
+*~
